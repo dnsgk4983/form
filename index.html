@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form 테스트</title>
+</head>
+
+
+
+<body>
+    <div class="container">
+        <div class="form-wrapper">
+            <form method="post"
+                action="https://script.google.com/macros/s/AKfycbx7dk9qEUtdJQ1VI2KhWdamRb3V-qpf7Pn9ezz-Fw/exec"
+                class="mt-5 form-contact slideanim">
+                <div class="row">
+                    <div class="form-group col-sm-6">
+                        <label for="usr" class="blind">이름</label>
+                        <input type="text" class="form-control" id="usr" name="username" value="odada">
+                    </div>
+                    <div class="form-group col-sm-6">
+                        <label for="email" class="blind">답변 받을 이메일</label>
+                        <input type="email" class="form-control" id="email" name="email" value="sample@mail.com">
+                    </div>
+                </div>
+
+                <div class="form-group">
+                    <label for="comment" class="blind">문의 내용</label>
+                    <textarea class="form-control" rows="5" id="comment" placeholder="comment">dd</textarea>
+                </div>
+                <button type="" class="btn btn-primary">문의하기</button>
+            </form>
+        </div>
+    </div>
+
+    <script src="assets/js/form-submission-handler.js"></script>
+</body>
+
+</html>
